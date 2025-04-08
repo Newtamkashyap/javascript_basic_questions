@@ -31,4 +31,12 @@ const factorialNumber = n => n <= 1 ? 1 : n * factorialNumber(n - 1);
 console.log(factorialNumber(4))
 
 
+function factorial_test(num){
+  if(num===1 || num===0){
+    return 1;
+  }
+
+  
+
+}
 
