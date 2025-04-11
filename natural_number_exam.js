@@ -1,6 +1,6 @@
-function sumNaturalNumbers(n) {
+function sumNaturalNumbers() {
     let sum = 0;
-    for (let i = 1; i <= n; i++) {
+    for (let i = 1; i <= 10; i++) {
       console.log(i)
       sum += i;
     }
@@ -8,5 +8,5 @@ function sumNaturalNumbers(n) {
   }
   
   // const n = 10; 
-  console.log(`sum of the natural number  is : ${sumNaturalNumbers(5)}`);
+  console.log(`sum of the natural number  is : ${sumNaturalNumbers()}`);
   
