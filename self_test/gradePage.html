@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Grade page</title>
+</head>
+
+<body>
+    <button onclick="gradePage()">click</button>
+
+    <script>
+        function gradePage() {
+            const enter = parseInt(prompt("Enter your score and check you are pass or fail"))
+            let score=enter;
+            if (score >= 75) {
+                // document.write("pass")
+                console.log("you are pass")
+                console.log(score)
+            }
+            else if(enter===null) {
+                alert("cancelled")
+                 
+
+            }
+            else if(enter===''){
+                alert("please provide score")
+            }
+            else {
+                // document.writeln("fail")
+                console.log("you are fail");
+                console.log(score)
+
+            }
+
+        }
+ 
+    </script>
+</body>
+
+</html>
