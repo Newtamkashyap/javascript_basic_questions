@@ -1,7 +1,7 @@
 function voteEligibility(age)
 {
     if(age>=18 ){
-        console.log("eligible")
+        console.log(`eligible`)
     }
     else{
         console.log("Not eligible")
