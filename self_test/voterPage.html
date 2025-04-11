@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="voteEligibility()">click</button>
+    <script>
+        function voteEligibility() {
+            const age=parseInt(prompt("Enter your Age"))
+            if (age >= 18) {
+                console.log("eligible")
+            }
+            else if(age===null || age===""){
+                alert("provide age"
+) ;
+            }
+            else {
+                console.log("Not eligible")
+            }
+
+        }
+    </script>
+</body>
+
+</html>
