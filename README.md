@@ -11,7 +11,7 @@
 # push the element in the array
 # unshift from the element
 # using splice method
-# using fll method
+# using fill method
 # using find method
 # using find method
 # using findIndex method
@@ -21,7 +21,7 @@
 # using pop method
 # reverse elemnet
 # sum of array
-# using tostring method
+# using toString method
 # ternary operator
 # for loop
 # nested loop

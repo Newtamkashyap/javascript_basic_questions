@@ -4,4 +4,4 @@ function checkNumbers() {
     console.log(numbers[2]);
 
 }
-checkNumbers()
+checkNumbers();
